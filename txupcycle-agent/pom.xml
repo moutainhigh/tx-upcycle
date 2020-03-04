@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>txupcycle-agent-api</module>
+        <module>txupcycle-agent-compiler</module>
+        <module>txupcycle-agent-connector</module>
+        <module>txupcycle-agent-core</module>
+    </modules>
+    <parent>
+        <artifactId>txupcycle</artifactId>
+        <groupId>com.rnkrsoft.txupcycle</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>txupcycle-agent</artifactId>
+    <description>交易重组客户端</description>
+</project>

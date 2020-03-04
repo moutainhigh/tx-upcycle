@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>txupcycle-agent</artifactId>
+        <groupId>com.rnkrsoft.txupcycle</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>txupcycle-agent-connector</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.rnkrsoft.txupcycle</groupId>
+            <artifactId>txupcycle-agent-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.rnkrsoft.txupcycle</groupId>
+            <artifactId>txupcycle-protocol</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+</project>
