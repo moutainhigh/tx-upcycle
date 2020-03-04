@@ -5,11 +5,11 @@
 采用客户端与服务器端的CS服务架构
 开发时
 
-![开发时](devtime.png)
+![开发时](doc/devtime.png)
 
 运行时
 
-![运行时](runtime.png)
+![运行时](doc/runtime.png)
 
 ## 核心原理
 agent通过扫描运行的节点服务，将服务节点的交易元信息推送至服务器统一管理。
